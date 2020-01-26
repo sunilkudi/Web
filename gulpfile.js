@@ -4,7 +4,7 @@ var gulp   = require('gulp');
   gulp.task('deploy', function () {
     return gulp.src("./prod/**/*")
       .pipe(deploy({ 
-        remoteUrl: "https://github.com/your_github_username_here/your_github_username_here.github.io.git",
+        remoteUrl: "https://github.com/sunilkudi/Web.git",
         branch: "master"
       }))
   });
